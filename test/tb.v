@@ -67,7 +67,7 @@ module tb ();
     $finish;
   end
 
-  async_counter user_project (
+  tt_um_async_counter user_project (
 `ifdef GL_TEST
       .VPWR(VPWR),
       .VGND(VGND),
